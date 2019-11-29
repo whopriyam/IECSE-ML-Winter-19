@@ -31,4 +31,4 @@ git push origin Priyam-Basu
 
 - All tasks will be posted on the [wiki]
 
-(https://github.com/whopriyam/IECSE-ML-Winter-19/wiki)
+(https://github.com/whopriyam/IECSE-ML-Winter-19/wiki/)
