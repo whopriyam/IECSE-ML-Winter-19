@@ -6,7 +6,7 @@
 
 - Create a new branch with your name using the command ```git checkout -b <branch-name>```, with branch name in format ```<first-name>"-"<last-name>. eg.- git checkout -b Priyam-Basu.```
 
-- All commits should be made to your own branch, Never commit to master. To prevent this always check what branch you're on before committing any changes, command to check current branch ```git branch```, command to checkout(change to) a branch, ```git checkout <branch-name>```.
+- All commits should be made to your own branch, **Never commit to master.** To prevent this always check what branch you're on before committing any changes, command to check current branch ```git branch```, command to checkout(change to) a branch, ```git checkout <branch-name>```.
 
 - To pull solutions after they are uploaded to master, change branch to master and do a git pull.
 ```git checkout master```
