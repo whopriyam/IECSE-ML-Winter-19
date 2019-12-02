@@ -24,7 +24,7 @@
 * Add a descriptive commit message for the same. Command- ```git commit -m "<msg>"```.
 Format - ```Task #<task-no.> : description```. Mention any errors or issues in the code in the commit message, if any.
 
-- Finally, push your code. command - ```git push origin <branch-name>```
+- Finally, push your code. command - ```git push origin <branch-name>``` <br>
 **Note:** While pushing your code, the above git command might ask your GitHub Id and password, enter the same, and then after successful verification only will git push your branch onto GitHub
 
 ``` 
