@@ -4,7 +4,7 @@
 
 **Instructions:**
 
-- Clone the IECSE Dev Winter Project repository
+- Clone the IECSE ML Winter Project repository
 ```git clone https://github.com/whopriyam/IECSE-ML-Winter-19.git```
 
 - Initialize a repository in the directory(this is just for information, you won't need this for any task) ```git init <Project Name>```
