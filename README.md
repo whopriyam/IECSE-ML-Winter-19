@@ -4,10 +4,12 @@
 
 **Instructions:**
 
-- Clone the IECSE Dev Winter Project repository
+- Clone the IECSE ML Winter Project repository
 ```git clone https://github.com/whopriyam/IECSE-ML-Winter-19.git```
 
 - Initialize a repository in the directory(this is just for information, you won't need this for any task) ```git init <Project Name>```
+
+- Type ```cd IECSE-ML-Winter-19```
 
 - Create a new branch with your name using the command ```git checkout -b <branch-name>```, with branch name in format ```<first-name>"-"<last-name>. eg.- git checkout -b Priyam-Basu.```
 
@@ -22,7 +24,8 @@
 * Add a descriptive commit message for the same. Command- ```git commit -m "<msg>"```.
 Format - ```Task #<task-no.> : description```. Mention any errors or issues in the code in the commit message, if any.
 
-- Finally, push your code. command - ```git push origin <branch-name>```
+- Finally, push your code. command - ```git push origin <branch-name>``` <br>
+**Note:** While pushing your code, the above git command might ask your GitHub Id and password, enter the same, and then after successful verification only will git push your branch onto GitHub
 
 ``` 
 git checkout -b Priyam-Basu
