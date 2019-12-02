@@ -4,6 +4,11 @@
 
 **Instructions:**
 
+- Clone the IECSE Dev Winter Project repository
+```git clone https://github.com/Hardikb19/IECSE-Dev-Winter-19.git```
+
+- Initialize a repository in the directory(this is just for information, you won't need this for any task) ```git init <Project Name>```
+
 - Create a new branch with your name using the command ```git checkout -b <branch-name>```, with branch name in format ```<first-name>"-"<last-name>. eg.- git checkout -b Priyam-Basu.```
 
 - All commits should be made to your own branch, **Never commit to master.** To prevent this always check what branch you're on before committing any changes, command to check current branch ```git branch```, command to checkout(change to) a branch, ```git checkout <branch-name>```.
