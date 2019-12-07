@@ -2,8 +2,6 @@ def reverse_list(l):
 	"""
 	Returns the reverse of a list l
 	"""
-	# YOUR CODE HERE
-	rl = []
 	n = 0
 	temp = 0
 	for x in l:
