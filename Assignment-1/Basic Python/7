@@ -1,0 +1,22 @@
+def slice(l, i, k):
+    """
+    Returns a list containing the elements between i'th and k'th elements of original list l.
+    """  
+    # YOUR CODE HERE
+    l1=l[i:k];
+    print(l1);
+    
+# creating an empty list 
+lst = [] 
+  
+# number of elements as input 
+n = int(input("Enter number of elements : ")) 
+  
+# iterating till the range 
+for j in range(0, n): 
+    ele = int(input()) 
+  
+    lst.append(ele) # adding the element 
+index=int(input("Enter left element: "))
+element=int(input("Enter right element: "))
+slice(lst, index, element);
