@@ -1,0 +1,23 @@
+def insert_element(l, i, elem):
+    """
+    Returns a new list containing elem at index i. If i > len (l), insert element at the end of the list
+    """      
+    # YOUR CODE HERE
+    del l[i] ;
+    l.insert(i, elem) ;
+    print(l);
+    
+# creating an empty list 
+lst = [] 
+  
+# number of elements as input 
+n = int(input("Enter number of elements : ")) 
+  
+# iterating till the range 
+for j in range(0, n): 
+    ele = int(input()) 
+  
+    lst.append(ele) # adding the element 
+index=int(input("Enter index: "))
+element=int(input("Enter element: "))
+insert_element(lst, index, element);
