@@ -13,6 +13,7 @@ def gen_strides(a, stride_len, window_len):
 	'''
 	arr = np.zeros(window_len)
 	t = np.array([])
+	n = 0
 	for x in a:
 		n = n + 1
 	while i + window_len != n + stride_len:
