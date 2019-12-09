@@ -1,0 +1,23 @@
+def reverse_list(l):
+    """
+    Returns the reverse of a list l
+    """
+    # YOUR CODE HERE
+    l.reverse();
+    print(l);
+        
+    
+# creating an empty list 
+lst = [] 
+  
+# number of elements as input 
+n = int(input("Enter number of elements : ")) 
+  
+# iterating till the range 
+for i in range(0, n): 
+    ele = int(input()) 
+  
+    lst.append(ele) # adding the element 
+    
+# calling the function
+reverse_list(lst);
