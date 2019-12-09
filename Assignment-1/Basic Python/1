@@ -4,7 +4,7 @@ def last_element(l):
     """
     # YOUR CODE HERE
     leng=len(l);
-    print(leng);
+    print(l[leng-1]);
     
 
 # creating an empty list 
