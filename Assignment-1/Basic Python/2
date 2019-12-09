@@ -1,0 +1,18 @@
+def num_elements(l):
+    """
+    Returns number of elements in the list l
+    """
+    # YOUR CODE HERE 
+    leng=len(l);
+    print(leng);
+    
+# creating empty list    
+try:
+    my_list = [] 
+      
+    while True:
+        my_list.append(int(input())) 
+        
+# when other than numbers are entered
+except:
+    num_elements(my_list);
