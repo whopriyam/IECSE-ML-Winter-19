@@ -1,0 +1,33 @@
+def gen_strides(a, stride_len, window_len):
+    '''
+    Input:
+      a: Numpy array of 1 dimension
+      stride_len: int, stride length
+      window_len : int, window length
+    
+    Output:
+      Numpy array of 2 dimensions containing windowed strides as explained above
+    '''
+    # YOUR CODE HERE
+    leng=len(a);
+    p=a[0:window_len];
+    print(p);
+    for i in range(stride_len,leng,stride_len):
+        window_len=window_len+stride_len;
+        if (window_len<=leng):
+            p=a[i:window_len];
+            print(p);
+    
+    
+    
+win_len=int(input("ENter the win_len:"));    
+str_len=int(input("ENter the str_len:")); 
+import numpy as np
+num_array = list()
+num = input("Enter how many elements you want:")
+print("Enter numbers in array:");
+for i in range(int(num)):
+    n = input("num :")
+    num_array.append(int(n));
+    
+gen_strides(num_array,str_len,win_len);
