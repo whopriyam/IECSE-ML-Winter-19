@@ -1,0 +1,31 @@
+def is_palindrome(l):
+    """
+    Returns True if l is a palindrome, False otherwise
+    """
+    # YOUR CODE HERE
+    
+    p=True;
+    for j in range(0,len(l)):
+       if l[j] != l[n-1-j]:
+           p = False;
+           break;
+    return p;
+        
+  
+        
+    
+# creating an empty list 
+lst = [] 
+  
+# number of elements as input 
+n = int(input("Enter number of elements : ")) 
+  
+# iterating till the range 
+for i in range(0, n): 
+    ele = int(input()) 
+  
+    lst.append(ele) # adding the element 
+    
+# calling the function
+x=is_palindrome(lst);
+print(x);
