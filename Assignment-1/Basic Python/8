@@ -18,6 +18,9 @@ for j in range(0, n):
     ele = int(input()) 
   
     lst.append(ele) # adding the element 
+    
 index=int(input("Enter index: "))
 element=int(input("Enter element: "))
+
+# calling the function here
 insert_element(lst, index, element);
