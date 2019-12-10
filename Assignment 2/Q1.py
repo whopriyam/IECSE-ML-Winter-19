@@ -25,4 +25,8 @@ def gen_strides(a, stride_len, window_len):
 	return ar
 gen_strides(np.array([1, 3, 7, 1, 2, 6, 0, 1]),2,4)
 ch = input("\nPress any key to exit...")
+<<<<<<< HEAD
 os.system("clear")
+=======
+os.system("clear")
+>>>>>>> eaef142a271ad36569cec121e754e05c05f4a293
