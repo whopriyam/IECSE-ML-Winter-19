@@ -13,6 +13,6 @@ try:
     while True:
         my_list.append(int(input())) 
         
-# when other than numbers are entered
+# when other than numbers are entered(exception case)
 except:
     num_elements(my_list);
