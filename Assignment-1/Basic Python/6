@@ -1,0 +1,33 @@
+def pack(l):
+    """
+    Returns a list with consecutive duplicate elements packed into sublists
+    """
+    n=len(l);
+    l1 = []
+    l2 = []
+    i = 0;
+    for j in range(n):
+    	if l[i]==l[j]:
+    		l1.append(l[j])
+    	elif l[i]!=l[j]:
+    		l2.append(l1)
+    		i = j
+    		l1 = []
+    		l1.append(l[j])
+    l2.append(l1)
+    print(l2);
+    
+# creating an empty list 
+lst = [] 
+  
+# number of elements as input 
+n = int(input("Enter number of elements : ")) 
+  
+# iterating till the range 
+for i in range(0, n): 
+    ele = int(input()) 
+  
+    lst.append(ele) # adding the element 
+    
+# calling the function
+pack(lst);
