@@ -19,5 +19,5 @@ for i in range(0, n):
   
     lst.append(ele) # adding the element 
     
-# calling the function
+# calling the function here
 reverse_list(lst);
