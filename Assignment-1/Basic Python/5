@@ -1,0 +1,22 @@
+def compress(l):
+    """
+    Returns a list with consecutive duplicate elements replaced by a single element
+    """
+    # YOUR CODE HERE
+    l1=list(dict.fromkeys(l));
+    print(l1);
+    
+# creating an empty list 
+lst = [] 
+  
+# number of elements as input 
+n = int(input("Enter number of elements : ")) 
+  
+# iterating till the range 
+for i in range(0, n): 
+    ele = int(input()) 
+  
+    lst.append(ele) # adding the element 
+    
+# calling the function
+compress(lst);
