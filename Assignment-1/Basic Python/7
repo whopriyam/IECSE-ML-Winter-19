@@ -17,6 +17,7 @@ for j in range(0, n):
     ele = int(input()) 
   
     lst.append(ele) # adding the element 
+    
 index=int(input("Enter left element: "))
 element=int(input("Enter right element: "))
 slice(lst, index, element);
