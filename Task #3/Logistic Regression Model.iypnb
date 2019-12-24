@@ -1,0 +1,24 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+//Reading the data
+df = pd.read_csv("train.csv")
+df.head()
+
+//Exploring the data
+df.target.value_counts()
+sns.countplot(x="target", data=df, palette="bwr")
+plt.show()
+countNoSurvived = len(df[df.target == 0])
+countHaveSurvived = len(df[df.target == 1])
+print("Percentage of Not Survivors: {:.2f}%".format((countNoSurvived / (len(df.target))*100)))
+print("Percentage of Survivors: {:.2f}%".format((countHaveSurvived / (len(df.target))*100)))
+plt.scatter(x=df.Age[df.target==1], y=df.thalach[(df.target==1)], c="red")
+plt.scatter(x=df.Age[df.target==0], y=df.thalach[(df.target==0)])
+plt.legend(["Survived", "Not Survived"])
+plt.xlabel("Age")
+plt.ylabel("Survival Rate")
+plt.show()
+
