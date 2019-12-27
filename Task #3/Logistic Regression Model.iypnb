@@ -21,4 +21,13 @@ plt.legend(["Survived", "Not Survived"])
 plt.xlabel("Age")
 plt.ylabel("Survival Rate")
 plt.show()
+y = df.Survived.values
+X = df.drop(['Survived'],axis = 1)
+ones = np.ones((891, 1))
+X= np.concatenate((ones, X), axis=1)
+print(X.shape)
+sns.countplot(x="Age", data=df, palette="bwr")
+plt.show()
+sns.countplot(x="Sex", data=df, palette="bwr")
+plt.show()
 
